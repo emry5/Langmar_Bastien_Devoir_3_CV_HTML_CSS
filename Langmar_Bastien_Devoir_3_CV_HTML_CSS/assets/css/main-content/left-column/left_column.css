@@ -1,0 +1,129 @@
+.left_col{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background: rgb(227, 227, 227);
+    max-width: 25%;
+    width: 25%;
+    text-align: start;
+    
+    
+}
+
+.inside_col{
+    margin: 0;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+}
+
+.h3 h3{
+    color:rgb(23, 171, 179);
+    font-weight:400;
+    
+}
+
+
+.skills{
+    font-size: 0.85em;
+    font-weight:600;
+}
+
+.skill_1{
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    
+}
+
+.skill_2{
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.skill_3{
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.stars{
+    color: rgb(23, 171, 179); 
+    letter-spacing: 2px;
+    font-size: 0.85em;  
+     
+}
+
+
+
+.lang{
+    font-size: 0.85em;
+      
+}
+.language{
+    font-weight: bold;
+     
+}
+
+.level{   
+    font-weight:300;
+}
+
+.fr{
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    
+}
+
+.eng{
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+     
+}
+
+.jap{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:nowrap;
+    margin-bottom: 10px;
+    
+    
+}
+
+.ger{
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    
+}
+
+.list{
+    list-style-type: square;
+    font-weight:300;
+    
+  
+    
+}
+
+.li_item::marker{
+    color:rgb(23, 171, 179);
+    
+}
+
+.inside_col ul{
+    margin: 0;
+    padding-left: 15px;
+}
+
+
+

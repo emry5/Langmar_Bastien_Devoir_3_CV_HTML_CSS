@@ -1,0 +1,61 @@
+.main_content{
+    background-color: rgb(255, 255, 255);
+    flex: 2;
+    padding: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column; 
+    margin-left: 25px;  
+    margin-top: 4px;
+
+}
+
+main h4{
+
+    margin-top: 5px;
+    position: relative;
+    margin-bottom: 0px;
+
+}
+
+main small{
+    position: relative;
+    margin-bottom: 10px;
+    font-style: oblique;
+    font-weight:300;
+    
+}
+
+.main_row{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.main_row small{
+    position: relative;
+    flex-wrap: wrap;  
+}
+
+.grey_row:hover{
+    padding: 10px;
+    background-color: rgb(227,227,227);
+    border-left: 4px solid rgb(23, 171, 179);
+}
+
+.time{
+    flex-direction: row;
+    justify-content: flex-end;
+    color: rgb(23, 171, 179);
+    font-style: italic;
+    font-weight:300;
+
+}
+
+article{
+    text-indent: 25px;
+    font-weight:300;
+}

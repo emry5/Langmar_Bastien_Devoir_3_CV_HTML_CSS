@@ -1,0 +1,135 @@
+header{
+    color: rgb(255, 255, 255);
+    background-color: rgb(23, 171, 179);  
+}
+
+.header_content{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+
+
+.photo_cv img{
+    object-fit: cover;
+    border-radius: 50%;
+    object-position: center;
+    border: 2.5px solid rgb(255, 255, 255);
+    
+}
+img{
+    display: flex;
+    position:absolute;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 100px;
+         
+}
+img:hover{
+    cursor: zoom-in;
+}
+
+h1, h2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+h1{
+    position: relative;
+    margin-top: 10px;
+}
+
+h2{
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: center;
+    gap: 55px;
+    margin-bottom: 10px;
+       
+}
+
+.contacts a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    opacity: 1;
+    transition:opacity 180ms ease, transform 180ms ease ;
+}
+
+.contacts a:hover{
+    opacity: 0.7;
+    cursor: pointer;
+
+}
+
+.contact_list{
+    font-weight:300;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.contact_list li{
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 10px; 
+}
+
+.contact_list .mail li::before{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 15px;
+    mask: url("../../icons/mail.svg");
+    background-color: rgb(255, 255, 255);
+    left: 0;
+    top: 0;
+}
+
+.contact_list .phone li::before{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    mask: url("../../icons/phone.svg");
+    background-color: rgb(255, 255, 255);
+    left: 0;
+    top: 0;
+}
+
+.contact_list .adresse li::before{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 17px;
+    mask: url("../../icons/home.svg");
+    background-color: rgb(255, 255, 255);
+    left: 0;
+    top: 0;
+}
+
+.contact_list .permis li::before{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 17px;
+    mask: url("../../icons/car.svg");
+    background-color: rgb(255, 255, 255);
+    left: 0;
+    top: 0;
+}
+
+    
+    
+
