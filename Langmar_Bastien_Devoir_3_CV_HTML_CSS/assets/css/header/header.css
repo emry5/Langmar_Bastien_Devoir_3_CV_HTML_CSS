@@ -86,7 +86,7 @@ h2{
     margin-bottom: 10px; 
 }
 
-.contact_list .mail li::before{
+.contact_list .mail::before{
     content: "";
     position: absolute;
     width: 20px;
@@ -97,7 +97,7 @@ h2{
     top: 0;
 }
 
-.contact_list .phone li::before{
+.contact_list .phone::before{
     content: "";
     position: absolute;
     width: 20px;
@@ -108,7 +108,7 @@ h2{
     top: 0;
 }
 
-.contact_list .adresse li::before{
+.contact_list .adresse::before{
     content: "";
     position: absolute;
     width: 20px;
@@ -119,7 +119,8 @@ h2{
     top: 0;
 }
 
-.contact_list .permis li::before{
+
+.contact_list .permis::before{
     content: "";
     position: absolute;
     width: 20px;
